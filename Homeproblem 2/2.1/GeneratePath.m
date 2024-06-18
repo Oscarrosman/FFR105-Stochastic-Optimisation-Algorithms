@@ -1,4 +1,4 @@
-function path = GeneratePath(pheromoneLevel, visibility, alpha, beta)
+vafunction path = GeneratePath(pheromoneLevel, visibility, alpha, beta)
 
 currentCity = randi([1, size(pheromoneLevel, 1)]);  % Path starts at randomly selected city
 % Setting up the parameters based on the starting city
